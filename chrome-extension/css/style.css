@@ -1,0 +1,88 @@
+/**
+ * 	CSS3 Horizontal Accordion
+ */
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+body,select, textarea { font-family: sans-serif; color: #222; }
+button { font-family: sans-serif; color: #222;margin: 0 auto;}
+input.devil { font-family: sans-serif; color: #222;margin: 0 auto;}
+
+/*Pure button costumization*/
+.button-success {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65);
+    margin: 10px auto;
+}
+
+/*Pure input costumization*/
+.input-spaced {
+    margin: 7px auto;
+}
+
+/*Define Accordion box*/
+.accordion { width:500px; overflow:hidden; margin:1px auto; color:#474747; background:#414141; padding:9px; }
+
+/*General Accordion****************************************************************************/
+/*Set style of open slide*/
+.accordion section:target { background:#FFF; padding:10px;}
+.accordion section:target:hover { background:#FFF; }
+.accordion section:target h2 {width:100%;}
+.accordion section:target h2 a{ color:#333; padding:0;}
+.accordion section:target p {display:block;}
+.accordion section:target input {display:block;}
+.accordion section:target button {display:block;}
+.accordion section:target form {display:block;}
+.accordion section h2 a{padding: 4px 22px;padding-left: 10px 3px; display:block; font-size:16px; font-weight:bold;color:#eee; text-decoration:none; }
+
+/*set style of closed slide*/
+.accordion section{ float:left;	overflow:hidden; color:#333; cursor:pointer; background: #333; margin:3px; }
+.accordion section:hover {background:#444;}
+.accordion section p { display:none; }
+.accordion section input { display:none; }
+.accordion section button { display:none; }
+.accordion section form { display:none; }
+.accordion section:after{position:relative;margin:-7px;}
+.accordion section:nth-child(1):after{content:url(/images/send.png);}
+.accordion section:nth-child(2):after{content:url(/images/settings.png);}
+.accordion section:nth-child(3):after{content:url(/images/about.png);}
+/*End General Accordion****************************************************************************/
+
+/*Horizontal Accordion *********************************************************************/
+.horizontal section{ width:5%; height:250px; 
+	-moz-transition:width 0.2s ease-out; 
+	-webkit-transition:width 0.2s ease-out;
+  	-o-transition:width 0.2s ease-out;
+	-ms-transition:width 0.2s ease-out;
+  	transition:width 0.2s ease-out;
+}
+
+/*Position the number of the slide*/
+.horizontal section:after{top:160px;left:9px;}
+
+/*Header of closed slide*/
+.horizontal section h2 { 
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	width:225px; position:relative; left:-100px; top:70px;
+} 
+
+/*On mouse over open slide*/
+.horizontal :target{ width:82%;height:230px; }
+.horizontal :target h2{ top:1px;left:0;
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg); 
+}
+/*End Horizontal Accordion *********************************************************************/
