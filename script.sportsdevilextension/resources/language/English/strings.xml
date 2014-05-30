@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+    	<string id="1000">SportsDevil Chrome Extension</string>
+	<string id="1001">You can only call this addon through the SportsDevil Chrome Extension</string>
+	<string id="1002">Link has been sent!</string>
+	<string id="1003">Wait </string>
+	<string id="1004"> seconds.</string>
+																			
+</strings>
