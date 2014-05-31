@@ -1,7 +1,15 @@
 /**
  * 	CSS3 Horizontal Accordion
  */
- 
+
+
+/* beginning of links styling */
+a:link {color:#5b71eb;}      
+a:visited {color:#a9b6b9;}  
+a:hover {color:#8693eb;}  
+a:active {color:#5b71eb;} 
+/* end of links styling */
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
@@ -39,6 +47,7 @@ input.devil { font-family: sans-serif; color: #222;margin: 0 auto;}
 .accordion section:target input {display:block;}
 .accordion section:target button {display:block;}
 .accordion section:target form {display:block;}
+.accordion section:target a {display:block;}
 .accordion section h2 a{padding: 4px 22px;padding-left: 10px 3px; display:block; font-size:16px; font-weight:bold;color:#eee; text-decoration:none; }
 
 /*set style of closed slide*/
@@ -48,6 +57,7 @@ input.devil { font-family: sans-serif; color: #222;margin: 0 auto;}
 .accordion section input { display:none; }
 .accordion section button { display:none; }
 .accordion section form { display:none; }
+.accordion section a { display:none; }
 .accordion section:after{position:relative;margin:-7px;}
 .accordion section:nth-child(1):after{content:url(/images/send.png);}
 .accordion section:nth-child(2):after{content:url(/images/settings.png);}
