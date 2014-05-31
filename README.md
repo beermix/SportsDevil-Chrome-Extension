@@ -22,7 +22,9 @@ Installation and preview?
 
 Watch the video below
 
-[![Demo Video](http://s28.postimg.org/w5gxz1599/extensai.jpg)](http://www.youtube.com/watch?v=1dTisVL67rg)
+[![Demo Video](http://s28.postimg.org/oaflbpae5/extensai.jpg)](http://www.youtube.com/watch?v=1dTisVL67rg)
+
+How to contribute?
 ----------
 You can fork the repo, do your code changes and make a pull request. If it adds a functionality or fix an issue the code will be merged after a review. If the problem is on the SportsDevil side, you can also contribute to the [SportsDevil public Repository](https://github.com/al101/SportsDevil-Fixes).
 
