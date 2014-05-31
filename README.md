@@ -11,9 +11,18 @@ Supose you have an htpc on your network, such as a Raspberry Pi. You can open a 
 
 Installation and preview?
 ----------
+* Download the zip from github and extract it somewhere
+* Install the script.sportsdevilextension.zip on your HTPC
+* Activate the webserver and define a port on (system-->settings-->services --> webserver)
+* Install the extension (the .crx file) on chrome
+* Configure the extension to use your HTPC ip and port
+* Open a webpage containing a livestream
+* Hit the Devil
+* Have fun
+
 Watch the video below
 
-How to contribute?
+[![Demo Video](http://s28.postimg.org/w5gxz1599/extensai.jpg)](http://www.youtube.com/watch?v=1dTisVL67rg)
 ----------
 You can fork the repo, do your code changes and make a pull request. If it adds a functionality or fix an issue the code will be merged after a review. If the problem is on the SportsDevil side, you can also contribute to the [SportsDevil public Repository](https://github.com/al101/SportsDevil-Fixes).
 
