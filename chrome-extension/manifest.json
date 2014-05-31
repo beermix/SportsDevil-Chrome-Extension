@@ -9,7 +9,6 @@
       "16": "icon16.png",
       "48": "icon48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArb7qFX2m0fYAw9kRCfvPUqiQkyr6nOeKp7PMV3w1t3zcDU434E8dfJ5DSjzuP2OVA0HzCUnZg7RPjbro+yHiZ4sLeG7wewyDAw8J9YdX3Qd2z6TkUaUxCZXBsLLVGZFHsc+uVKxJjUrNt4NYeI/aNk2WwRSbqPpHjfOQ55hYvP+sKCXRSZAcgof3hgZf+NL0fTIMFf/LqUO4EYq+ax6UufmEdlZD3Nm3UieNxUgMb6Ydl+eW4I1dsFfcqzGzLiFkSfIrAkO/gQMrK6QwW+emf+H4Af35HgtcR81J/mQg23E1OR0+XwKrSf8RGX6+j1f28TznbXdr09KGXdhngy/BZQIDAQAB",
    "manifest_version": 2,
    "name": "SportsDevil Chrome Extension",
    "permissions": [ "storage", "tabs" ],
