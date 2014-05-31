@@ -17,7 +17,7 @@ How to contribute?
 ----------
 You can fork the repo, do your code changes and make a pull request. If it adds a functionality or fix an issue the code will be merged after a review. If the problem is on the SportsDevil side, you can also contribute to the [SportsDevil public Repository](https://github.com/al101/SportsDevil-Fixes).
 
-Why isn't it on a repository or on the Chrome WebStore?
+Why not on a repository or Chrome WebStore?
 ----------
 I'll take care of this later.
 
@@ -28,6 +28,12 @@ Of course you can and you are encouraged to do so. You are free to copy the exte
 The link xxxxxx doesn't work..help!!!!
 ----------
 Web developers hide the stream links behind multiple iframes or use javascript encryption to make the page scrapping harder. Unless you solve it yourself (and send code changes to the extension or SportsDevil) or the stream comes from an already available SportsDevil website parser...your message will most likely be ignored. 
+
+Aknowledgements
+----------
+* To Pure Css for the inputs/button css.
+* To Paul Underwood for the CSS-Based Content Accordion
+* To fightnight for the wtairplay extension which served the basis of this extension. 
 
 Changelog
 ----------
